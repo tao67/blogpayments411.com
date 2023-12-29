@@ -2,4 +2,21 @@ baseURL = 'https://tao67.github.io/blogpayments411.com/'
 languageCode = 'en-us'
 title = 'Payments411'
 theme="beautifulhugo"
-sectionPagesMenu = 'main'
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
